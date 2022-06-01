@@ -13,7 +13,7 @@ class LoginController extends Controller
             'email' => 'required|email',
             'password' => 'required'
         ]);
-
+        
         $token = auth()->attempt($request->only('email', 'password'));
 
         if (!$token) {

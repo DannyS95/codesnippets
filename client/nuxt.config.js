@@ -1,5 +1,6 @@
 let env = require("dotenv").config();
 
+console.log(env)
 export default {
   // Global page headers (https://go.nuxtjs.dev/config-head)
   env: env.parsed,
