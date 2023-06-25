@@ -1,7 +1,7 @@
 <template>
     <button
         @click.prevent="addStep"
-        class="block mb-2 p-3 bg-blue-500 mr-2 rounded-lg"
+        class="block mb-2 p-3 bg-blue-500 mr-2 rounded-lg lg:mr-0"
         :title="`Add step ${position}`"
     >
         <svg

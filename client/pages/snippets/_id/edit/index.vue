@@ -70,7 +70,7 @@
             />
           </div>
 
-          <div class="flex flex-row-reverse lg:flex-col order-first lg:order-last  mr-2 lg:mr-0z">
+          <div class="flex flex-row-reverse lg:flex-col order-first lg:order-last  mr-2 lg:mr-0">
             <StepNavigationButton
               :step="nextStep"
               title="Next Step"
